@@ -1,4 +1,3 @@
-https://filters.adtidy.org/extension/ublock/filters/17.txt
 https://assets.celenity.dev/ublock/phoenix/filters.txt
 https://assets.celenity.dev/ublock/phoenix/quick-fixes.txt
 https://badblock.celenity.dev/abp/fonts.txt
@@ -27,6 +26,8 @@ https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/ultimate.mini
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt
 https://raw.githubusercontent.com/fmhy/FMHYFilterlist/main/filterlist-basic.txt
 https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt
+https://rimon3134.github.io/Filters/ZeroHosts.txt
+https://rimon3134.github.io/Filters/ZeroVoid.txt
 https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance%5Flist.txt
 https://raw.githubusercontent.com/yokoffing/filterlists/main/block%5Fthird%5Fparty%5Ffonts.txt
 https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt
@@ -41,3 +42,7 @@ https://raw.githubusercontent.com/jartf/ublock-lists/refs/heads/main/GitHub/clea
 https://raw.githubusercontent.com/Suurp/uBlock-CustomFilters/refs/heads/main/filters-shortlinks.txt
 https://raw.githubusercontent.com/Suurp/uBlock-CustomFilters/refs/heads/main/filters-faucets.txt
 https://ublockorigin.pages.dev/filters/filters.min.txt
+https://rimon3134.github.io/Filters/ZeroLock.txt
+https://rimon3134.github.io/Filters/ZeroAds.txt
+https://rimon3134.github.io/Filters/ZeroHosts.txt
+https://rimon3134.github.io/Filters/ZeroVoid.txt
