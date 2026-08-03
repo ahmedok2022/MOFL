@@ -40,3 +40,4 @@ https://raw.githubusercontent.com/jartf/ublock-lists/refs/heads/main/YouTube/cle
 https://raw.githubusercontent.com/jartf/ublock-lists/refs/heads/main/GitHub/cleaner-github-ui.txt
 https://raw.githubusercontent.com/Suurp/uBlock-CustomFilters/refs/heads/main/filters-shortlinks.txt
 https://raw.githubusercontent.com/Suurp/uBlock-CustomFilters/refs/heads/main/filters-faucets.txt
+https://ublockorigin.pages.dev/filters/filters.min.txt
