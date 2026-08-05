@@ -39,3 +39,14 @@ www.reddit.com##.overflow-hidden.relative.p-md.bg-neutral-background-weak.rounde
 cimanow.cc https://tpc.googlesyndication.com image allow
 #@#.google-ad
 *##.plyr-container
+@@||yastatic.net^
+cimanow.cc https://tpc.googlesyndication.com image allow
+#@#.google-ad
+*##.plyr-container
+@@/ads.js$script
+link.snipcash.com##.banner-468x60.banner
+airdrops.io##video
+#@#[href*="blockID"]:style(clip-path: circle(0) !important;)
+forafile.com###link2
+forafile.com###link1
+||mugspot.icu^$popup
