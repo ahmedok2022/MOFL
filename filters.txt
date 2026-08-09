@@ -1,6 +1,6 @@
 ! Title: Ahmed's Ultimate Filter List
 ! Description: Comprehensive ad, tracker, malware, phishing & annoyance protection
-! Last updated: 2026-08-08 04:32:47 UTC
+! Last updated: 2026-08-09 04:42:15 UTC
 ! Expires: 1 day
 
 ! Total rules: 8706 (8656 from 23 sources + 50 custom)
@@ -334,7 +334,7 @@ $doc,removeparam=scid,domain=~pnc.com
 $doc,removeparam=searchidx,domain=bedbathandbeyond.com
 $doc,removeparam=selectedCCIndex,domain=citi.com
 $doc,removeparam=sh,domain=forbes.com|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
-$doc,removeparam=share_id,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|sky.it
+$doc,removeparam=share_id,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|sky.it|xiaohongshu.com|snapchat.com
 $doc,removeparam=shortlink
 $doc,removeparam=site,domain=affiliate.insider.com|alina.se
 $doc,removeparam=smid,domain=~amazon.*|~clubassistant.com|~opinion.no|~swimphone.com
@@ -8249,7 +8249,6 @@ zulily.com##+js(std, loginModal, 500)
 ||smartwall.theglobeandmail.com^
 ||smh.com.au^$removeparam=btis,doc
 ||snapchat.com^$removeparam=/^timestamp=0$/
-||snapchat.com^$removeparam=share_id
 ||sogou.com^$removeparam=/^hp.*$/
 ||sogou.com^$removeparam=/^stj.*$/
 ||sogou.com^$removeparam=_asf
@@ -8628,6 +8627,7 @@ zulily.com##+js(std, loginModal, 500)
 ||xiaohongshu.com^$removeparam=app_version,doc
 ||xiaohongshu.com^$removeparam=apptime,doc
 ||xiaohongshu.com^$removeparam=appuid,doc
+||xiaohongshu.com^$removeparam=share_channel,doc
 ||xiaohongshu.com^$removeparam=share_from_user_hidden,doc
 ||xiaohongshu.com^$removeparam=xhsshare,doc
 ||xn--*
