@@ -1,6 +1,6 @@
 ! Title: Ahmed's Ultimate Filter List
 ! Description: Comprehensive ad, tracker, malware, phishing & annoyance protection
-! Last updated: 2026-08-11 04:45:53 UTC
+! Last updated: 2026-08-12 05:11:15 UTC
 ! Expires: 1 day
 
 ! Total rules: 9055 (9005 from 23 sources + 50 custom)
@@ -1709,7 +1709,7 @@ $removeparam=u_c1
 $removeparam=u_code
 $removeparam=uact,domain=www.google.*|ipv6.google.com
 $removeparam=ucf_user_id
-$removeparam=ueid,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
+$removeparam=ueid,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com|theverge.com
 $removeparam=uid,domain=alldebrid.fr|columbia.com|entradas.com|links.e.malwarebytes.com|sorel.com|tomtop.com
 $removeparam=uls_trackid
 $removeparam=unicorn_click_id
@@ -7500,7 +7500,7 @@ zulily.com##+js(std, loginModal, 500)
 ||buzzfeed.com/static-assets/fonts/
 ||buzzfeednews.com^$removeparam=bfsource
 ||buzzsprout.com/$3p,frame,redirect=click2load.html
-||bwbx.io/s3/fence/fortress-client/$script,third-party,domain=bloomberg.com
+||bwbx.io/s3/fence/fortress-client/*.css$stylesheet,third-party,domain=bloomberg.com
 ||bybit.com^$doc,removeparam=/^sa_utm_.*$/i
 ||c1.microsoft.com^
 ||c950.chronicle.com^
