@@ -50,3 +50,5 @@ airdrops.io##video
 forafile.com###link2
 forafile.com###link1
 ||mugspot.icu^$popup
+#@#.ads-box
+#@#.ad-content
