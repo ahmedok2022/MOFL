@@ -3,7 +3,6 @@ https://assets.celenity.dev/ublock/phoenix/quick-fixes.txt
 https://badblock.celenity.dev/abp/fonts.txt
 https://badblock.celenity.dev/abp/personal.txt
 https://gitlab.com/celenityy/BadBlock/-/raw/pages/base/overrides/hardened/block-beacon%5Foverrides.txt
-https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/block-page-visibility.txt
 https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/block-webgl.txt
 https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/block-webgpu.txt
 https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/block-webrtc.txt
