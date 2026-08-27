@@ -25,4 +25,3 @@ https://raw.githubusercontent.com/jartf/ublock-lists/refs/heads/main/YouTube/ant
 https://raw.githubusercontent.com/jartf/ublock-lists/refs/heads/main/YouTube/cleaner-youtube-ui.txt
 https://raw.githubusercontent.com/jartf/ublock-lists/refs/heads/main/GitHub/cleaner-github-ui.txt
 https://raw.githubusercontent.com/brnfznlkmn/uBlock-Origin-Filters/refs/heads/main/main-filters.txt
-https://gitlab.com/celenityy/BadBlock/-/raw/pages/abp/click-tracking.txt
