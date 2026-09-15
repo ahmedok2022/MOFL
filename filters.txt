@@ -1,6 +1,6 @@
 ! Title: Ahmed's Ultimate Filter List
 ! Description: Comprehensive ad, tracker, malware, phishing & annoyance protection
-! Last updated: 2026-09-14 09:07:22 UTC
+! Last updated: 2026-09-15 08:49:30 UTC
 ! Expires: 1 day
 
 ! Total rules: 8495 (8443 from 16 sources + 52 custom)
@@ -1835,7 +1835,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /\.solicitorsjournal\.com\/_next\/static\/chunks\/\d.+\.js/$script,domain=solicitorsjournal.com,~third-party
 /\.straitstimes\.com\/.+(\w+-){3,}.+\?rel=plus/$inline-script,domain=straitstimes.com
 /\.subscriptioninsider\.com\/.+\/(\w+-){3,}/$inline-script,domain=subscriptioninsider.com
-/\.telegram\.hr\/.+\/(\w+-){3,}/$inline-script
+/\.telegram\.hr\/.+\/(\w+-){3,}/$inline-script,domain=telegram.hr
 /\.vanityfair\.it\/[-\w]+$/$script,~third-party
 /\.vn\.at\/.+\/\d{4}\//$inline-script,domain=vn.at
 /\/epoch\.org\.il\/.+\/\d{5,}\//$inline-script,domain=epoch.org.il
@@ -2014,7 +2014,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||bostonglobe.com/api/v1/setCookie$xhr,1p
 @@||canon.*/supportproduct/gettabcontent$removeparam=referrer
 @@||cdon.*/td_redirect^$removeparam=tduid
-@@||consentmanager.net$script,third-party
+@@||consentmanager.net^$script,third-party
 @@||cookielaw.org^$xmlhttprequest,domain=blick.ch
 @@||email-link.$removeparam
 @@||experience.tinypass.com/xbuilder/$script,3p
@@ -2048,7 +2048,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||smartblock.firefox.etp^
 @@||startpage.com/sp/qi$removeparam=sc
 @@||startpage.com/suggestions$removeparam=segment
-@@||tinypass.com$script,domain=ajc.com|thelogic.co
+@@||tinypass.com^$script,domain=ajc.com|thelogic.co
 @@||townnews.com^*/tncms/*/ads/*/tnt.ads.advertisements.$script
 @@||townnews.com^*/tncms/*/ads/*/tnt.ads.adverts.$script
 @@||treg.hearstnp.com/treg.js$script
@@ -6904,7 +6904,7 @@ zulily.com##+js(std, loginModal, 500)
 ||apple.com^$removeparam=mttnsubkw
 ||apple.com^$removeparam=mttnsubplmnt
 ||apps.microsoft.com^$removeparam=hasHeroImage
-||apw.economictimes.indiatimes.com$xmlhttprequest,~third-party
+||apw.economictimes.indiatimes.com^$xmlhttprequest,~third-party
 ||arc-cdn.net/arc/subs/p.min.js$script,third-party
 ||archive.org^$removeparam=iax
 ||arkadiumhosted.com/advertisement/
@@ -6949,7 +6949,7 @@ zulily.com##+js(std, loginModal, 500)
 ||avaaz.org^$removeparam=copy
 ||avast.com^$doc,removeparam=__cf_chl_rt_tk
 ||aw1.accuradio.com^
-||axate.io$script,third-party
+||axate.io^$script,third-party
 ||axios.com/api/v1/licenses
 ||ayc0zsm69431gfebd.info^
 ||ayc0zsm69431gfebd.xyz^
@@ -7231,7 +7231,7 @@ zulily.com##+js(std, loginModal, 500)
 ||cdn.loeildelaphotographie.com/wp-content/*/hague-child/js/script-$script,~third-party
 ||cdn.piano.io/api/tinypass.min.js$script,domain=clicrbs.com.br
 ||cdn.piano.io/api/tinypass.min.js$script,domain=www.thehindu.com
-||cdn.registerdisney.go.com$script,domain=nationalgeographic.com
+||cdn.registerdisney.go.com^$script,domain=nationalgeographic.com
 ||cdn.safefileku.com/download-section-min.png$image
 ||cdn.tinypass.com/api/tinypass.min.js$script,domain=hbr.org
 ||cdn.tinypass.com/api/tinypass.min.js$script,domain=kurier.at
@@ -7283,7 +7283,7 @@ zulily.com##+js(std, loginModal, 500)
 ||cmswire.com^$doc,removeparam=topic_id
 ||cnbc.com^$doc,removeparam=__source
 ||cnbc.com^$doc,removeparam=par
-||cnv-medien.de$inline-script
+||cnv-medien.de^$inline-script
 ||codepen.io/*/embed/$3p,frame,redirect=click2load.html,domain=~theodinproject.com
 ||coderpad.io^$doc,removeparam=cg_referrer
 ||columbiasportswear.$removeparam=oid
@@ -7454,8 +7454,8 @@ zulily.com##+js(std, loginModal, 500)
 ||etsy.com^$removeparam=gpla
 ||euromaidanpress.com^$removeparam=swcfpc,doc
 ||euronews.com^$removeparam=_ope
-||ev.lavanguardia.com$xmlhttprequest,~third-party
-||ev.mundodeportivo.com$xmlhttprequest,~third-party
+||ev.lavanguardia.com^$xmlhttprequest,~third-party
+||ev.mundodeportivo.com^$xmlhttprequest,~third-party
 ||everesttech.net^$removeparam=/^ev_.*$/
 ||eviemagazine.com/api/trpc/post.paywall$xmlhttprequest,~third-party
 ||evolok.com^$third-party
@@ -7512,7 +7512,7 @@ zulily.com##+js(std, loginModal, 500)
 ||forms.office.com^$removeparam=route
 ||fortune.com/api/tinypass.min.js$script,~third-party
 ||fp-cdn.azureedge.net^
-||freitag.de$inline-script
+||freitag.de^$inline-script
 ||ftm.eu/js/routing$script,~third-party
 ||ftm.nl/js/routing$script,~third-party
 ||fubo.tv^$removeparam=irad
@@ -7596,7 +7596,7 @@ zulily.com##+js(std, loginModal, 500)
 ||gstatic.com/pantheon/images/search/gemini_branding
 ||guidecent.com^$script,third-party
 ||gumroad.com^$removeparam=recommended_by
-||gyrovague.com$xmlhttprequest,third-party
+||gyrovague.com^$xmlhttprequest,third-party
 ||hadrianpaywall.com^$third-party
 ||hao123.com^$removeparam=tn
 ||haokan.baidu.com/v?$removeparam=pd
@@ -7620,7 +7620,7 @@ zulily.com##+js(std, loginModal, 500)
 ||hotels.com^$removeparam=x_pwa
 ||hp.com^$removeparam=jumpid
 ||hpi.de^$removeparam=tracking_id
-||htlbid.com$script,third-party
+||htlbid.com^$script,third-party
 ||html5-player.libsyn.com/embed/$3p,frame,redirect=click2load.html
 ||humblebundle.com^$removeparam=linkID
 ||humblebundle.com^$removeparam=mcID
@@ -7685,7 +7685,7 @@ zulily.com##+js(std, loginModal, 500)
 ||jcpenney.com^$removeparam=productGridView
 ||jcpenney.com^$removeparam=selectedSKUId
 ||jcpenney.com^$removeparam=urlState
-||jerseyeveningpost.com$inline-script
+||jerseyeveningpost.com^$inline-script
 ||jeuneafrique.com/cdn-cgi/trace$xmlhttprequest,~third-party
 ||jobs.clients6.google.com^
 ||jobs.googleapis.com^
@@ -7711,7 +7711,7 @@ zulily.com##+js(std, loginModal, 500)
 ||koreaherald.com^$doc,removeparam=ACE_SEARCH
 ||kovan-infura.brave.com^
 ||l.clips4sale.com^$removeparam=o
-||lapost.com$inline-script
+||lapost.com^$inline-script
 ||lastampa.it/*/news/$inline-script
 ||lasvegasadvisor.com/js/access.min.js$script,~third-party
 ||lasvegasadvisor.com/opt/*.js$script,~third-party
@@ -7814,7 +7814,7 @@ zulily.com##+js(std, loginModal, 500)
 ||mng-digisubs-prod.com^
 ||mobilecoinww.com^
 ||monsterhunternow.com^$doc,removeparam=source_caller
-||moscout.com$inline-script
+||moscout.com^$inline-script
 ||mothership.sg^$removeparam=fs
 ||motorsportmagazine.com/wp-admin/admin-ajax.php$xmlhttprequest,~third-party
 ||mozilla-ohttp-fakespot.fastly-edge.com^
@@ -8025,7 +8025,7 @@ zulily.com##+js(std, loginModal, 500)
 ||racketmn.com/_next/*/%5BsiteSlug*.js$script,~third-party
 ||racquetmag.com/_next/*/%5BsiteSlug*.js$script,~third-party
 ||rcimages.xyz^$third-party
-||rdhmag.com$inline-script
+||rdhmag.com^$inline-script
 ||realestate.com.au^$removeparam=rsf
 ||redcharger.co^$third-party
 ||redcharger.net^$third-party
@@ -8209,7 +8209,7 @@ zulily.com##+js(std, loginModal, 500)
 ||thehackernews.com^$removeparam=_m
 ||thehill.com^$removeparam=emaila
 ||thehill.com^$removeparam=emailb
-||theintercept.com$inline-script
+||theintercept.com^$inline-script
 ||theladders.com/api/auth/is-logged-in
 ||thenation.com/wp-content/themes/*/js/paywall/main.js$script,~third-party
 ||thenationalpulse.com/wp-content/*/assets/js/national-pulse.js$script,~third-party
@@ -8217,7 +8217,7 @@ zulily.com##+js(std, loginModal, 500)
 ||thenewatlantis.com/*/thenewatlantis/js/gate.js$script,~third-party
 ||theregister.com^$removeparam=td
 ||theschooloflife.com/app/plugins/*/woocommerce.min.js$script,~third-party
-||thetablet.org$inline-script
+||thetablet.org^$inline-script
 ||thetimes.com/wp-content/plugins/tm-wp-zephr/$script,~third-party
 ||thisismoney.co.uk^$removeparam=molReferrerUrl
 ||threads.com^$removeparam=slof
@@ -8249,7 +8249,7 @@ zulily.com##+js(std, loginModal, 500)
 ||tokopedia.com^$removeparam=whid
 ||tokopedia.com^$removeparam=xClientId
 ||tonos.gjirafa.tech/init/access$xmlhttprequest,domain=atlantico.fr
-||top-fwz1.mail.ru$script,third-party
+||top-fwz1.mail.ru^$script,third-party
 ||topagrar.com/*/news/$inline-script
 ||townnews.com/*/tncms/*/scripts/engage.min.js$script,third-party,domain=nola.com|shreveportbossieradvocate.com|theadvocate.com
 ||townnews.com/stltoday.com/*/stl.init.js$script,domain=stltoday.com
