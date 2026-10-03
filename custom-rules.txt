@@ -52,3 +52,12 @@ forafile.com###link1
 ||mugspot.icu^$popup
 #@#.ads-box
 #@#.ad-content
+#@#.adsbygoogle
+||adspro.cfd^$popup
+||adplsr.com^$popup
+link.snipcash.com##div.banner-captcha.banner:nth-of-type(3)
+lrepacks.net##div.skiptranslate:nth-of-type(1)
+||*.adplsr.com^
+||terdeallyighabove.org^$popup
+||forafile.com/images/ads/970x250.png$image
+||reoxidizedkenchescyaneous.forum^$popup
