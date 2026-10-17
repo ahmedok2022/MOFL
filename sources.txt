@@ -10,7 +10,6 @@ https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/unbreak-webgl.txt
 https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/unbreak-webgpu.txt
 https://gitlab.com/celenityy/BadBlock/-/raw/pages/hardened/unbreak-webrtc.txt
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Special%20security%20lists/IDNHomographProtectionTotal.txt
 https://divested.dev/blocklists/Fingerprinting.ubl
 https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt
