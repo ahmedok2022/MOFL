@@ -1,6 +1,6 @@
 ! Title: Ahmed's Ultimate Filter List
 ! Description: Comprehensive ad, tracker, malware, phishing & annoyance protection
-! Last updated: 2026-10-21 08:44:31 UTC
+! Last updated: 2026-10-22 08:46:43 UTC
 ! Expires: 1 day
 
 ! Total rules: 5229 (5168 from 14 sources + 61 custom)
@@ -254,8 +254,6 @@ accountingtoday.com,americanbanker.com,benefitnews.com,bondbuyer.com,dig-in.com,
 accuradio.com###playerSkipButton:style(display:inline!important)
 accuradio.com###playerSkipLoading
 act.hoyoverse.com#@#+js(prevent-canvas, webgl)
-adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsgrandrapids.com,crainsnewyork.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent._id, 0)
-adage.com,autonews.com,chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsgrandrapids.com,crainsnewyork.com,modernhealthcare.com,pionline.com,plasticsnews.com,rubbernews.com,tirebusiness.com,utech-polyurethane.com##+js(set, window.Fusion.globalContent.content_restrictions, {})
 addons.opera.com###overlay
 adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,theaustralian.com.au,thechronicle.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##+js(ra, subscriptions-section, [subscriptions-section="content"], stay)
 adelaidenow.com.au,cairnspost.com.au,codesports.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,theaustralian.com.au,thechronicle.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##[subscriptions-section="content-not-granted"]
@@ -5016,6 +5014,8 @@ zulily.com##+js(std, loginModal, 500)
 ||racquetmag.com/_next/*/%5BsiteSlug*.js$script,~third-party
 ||rcimages.xyz^$third-party
 ||rdhmag.com^$inline-script
+||reader.*.com/full_page_image/$inline-script,domain=cleveland.com|lehighvalleylive.com|mlive.com|nj.com|pennlive.com|silive.com|syracuse.com
+||reader.*.com/full_page_image/$inline-script,domain=huntsvilletimes.com|mobilepressregister.com|repub.com|thebirminghamnews.com|theoregonian.com
 ||redcharger.co^$third-party
 ||redcharger.net^$third-party
 ||reddit.com/mediaembed/$3p,frame,redirect=click2load.html
