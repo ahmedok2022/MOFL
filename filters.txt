@@ -1,6 +1,6 @@
 ! Title: Ahmed's Ultimate Filter List
 ! Description: Comprehensive ad, tracker, malware, phishing & annoyance protection
-! Last updated: 2026-11-09 11:53:38 UTC
+! Last updated: 2026-11-10 11:27:07 UTC
 ! Expires: 1 day
 
 ! Total rules: 5230 (5169 from 14 sources + 61 custom)
