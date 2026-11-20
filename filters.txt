@@ -1,6 +1,6 @@
 ! Title: Ahmed's Ultimate Filter List
 ! Description: Comprehensive ad, tracker, malware, phishing & annoyance protection
-! Last updated: 2026-11-19 11:56:00 UTC
+! Last updated: 2026-11-20 11:57:05 UTC
 ! Expires: 1 day
 
 ! Total rules: 5235 (5174 from 14 sources + 61 custom)
@@ -4221,8 +4221,8 @@ policorner.ca##div.free-text,div.subscribe-box
 popbitch.com##+js(ra, class, div[class*="-premium"], stay)
 pourleco.com##+js(ra, style, div[class*="article-"][style], stay)
 pourleco.com##div[data-pleco-poool^="paywall"],div[data-pleco-transition="fade"]
-profi.de,topagrar.com,wochenblatt.com##+js(ra, class|style, div.paywall-full-content[style], stay)
-profi.de,wochenblatt.com##div.m-paywall__textFadeOut,div[id^="paymentprocess-"]
+profi.de##+js(ra, class, div.container-lg > div.hidden, stay)
+profi.de##div.paragraph-paywall,div.container-lg > div.paragraph-text,div#self-promotion
 profil.at##+js(ra, class|style, div.paywall, stay)
 profil.at##div#cfs-paywall-container,div.consentOverlay
 psychologie-heute.de##+js(ra, class, div.payWall, stay)
@@ -4473,7 +4473,8 @@ timeshighereducation.com##div.paywall-active
 timesofindia.indiatimes.com##+js(ra, style, body[style], stay)
 timesofindia.indiatimes.com##div[class]:has(>div.loginWallPopUP)
 toji.github.io#@#+js(prevent-canvas, webgl)
-topagrar.com##div.paywall-package
+topagrar.com##+js(ra, class|style, div.paywall-full-content[style], stay)
+topagrar.com##div.m-paywall__textFadeOut
 track.doordash.com#@#+js(prevent-canvas, /webgl/)
 trailsoffroad.com##.paywall
 transit.ttc.com.ge#@#+js(prevent-canvas, webgl)
@@ -5116,7 +5117,6 @@ zulily.com##+js(std, loginModal, 500)
 ||to-do.microsoft.com^
 ||tonos.gjirafa.tech/init/access$xmlhttprequest,domain=atlantico.fr
 ||top-fwz1.mail.ru^$script,third-party
-||topagrar.com/*/news/$inline-script
 ||townnews.com/*/tncms/*/scripts/engage.min.js$script,third-party,domain=nola.com|shreveportbossieradvocate.com|theadvocate.com
 ||townnews.com/stltoday.com/*/stl.init.js$script,domain=stltoday.com
 ||townnews.com^*/lee_subscription/
